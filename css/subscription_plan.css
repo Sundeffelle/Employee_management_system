@@ -1,0 +1,73 @@
+
+body {
+    background-color: #f8f9fa;
+    background: url('img/pinkbackground.jpeg') center center/cover;
+    backdrop-filter: blur(250px);
+}
+.container {
+    margin-top: 50px;
+}
+.plan-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.plan-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.plan-card h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #343a40;
+}
+.plan-card ul {
+    list-style: none;
+    padding: 0;
+}
+.plan-card ul li {
+    font-size: 1rem;
+    padding: 5px 0;
+}
+.btn-select {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+}
+.btn-select:hover {
+    background-color: #0056b3;
+}
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+}
+footer a:hover {
+    color: #0056b3;
+}
+.social-icons {
+    margin-top: 10px;
+}
+.social-icons i {
+    margin: 0 15px;
+    font-size: 1.5rem;
+    color: #fff;
+    transition: color 0.2s ease;
+}
+.social-icons i:hover {
+    color: #007bff;
+}
