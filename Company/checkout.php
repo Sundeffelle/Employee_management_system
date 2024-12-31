@@ -8,7 +8,7 @@ error_reporting(E_ALL);
 require __DIR__ . "/../vendor/autoload.php"; // Ensure the correct path to Stripe library
 
 // Set Stripe API secret key
-$stripe_secret_key = "pk_live_51QTgs0KvBZ00hvQjbkC3HIIQMXYAOqB9iqRQBEVRaTDdUw5DD8Zpuujw23Ih2ukjq26OB0ENzItBpFRh0VfvA2PI006qjfVh6V";
+$stripe_secret_key = "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";
 \Stripe\Stripe::setApiKey($stripe_secret_key);
 
 try {
